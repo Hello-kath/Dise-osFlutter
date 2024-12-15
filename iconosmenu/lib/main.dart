@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:menu/screen/menuScreen.dart'; 
+import 'package:iconosmenu/screen/inicio.dart'; 
 
 void main(List<String> args) {
   runApp(const FirstApp());
@@ -18,8 +18,8 @@ class _FirstAppState extends State<FirstApp> {
     return MaterialApp(
       //mide el tamado del area de construccion
       debugShowCheckedModeBanner: false,
-      title: "Menu de navegacion",
-      home: NavigationTabs());
+      title: "inicio de menu",
+      home: HomeScreen());
     
   }
 }
